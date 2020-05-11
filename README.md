@@ -2,7 +2,7 @@
 
 A fun cheese quizz deployed on OpenShift and illustrating cloud native technologies like Quarkus, Istio Service Mesh, CodeReady Workspaces, Strimzi Kafka Operator, Fuse Online/Syndesis, Tekton pipelines and ArgoCD.
 
-[![Contribute](https://che.openshift.io/factory/resources/factory-contribute.svg)](https://codeready-crw.apps.ocp4.itix.fr/f?url=https://github.com/nmasse-itix/cheese-quizz)
+[![Contribute](https://che.openshift.io/factory/resources/factory-contribute.svg)](https://codeready-crw.apps.ocp4.itix.fr/f?url=https://github.com/nmasse-itix/cheese-quizz&org=ITIX)
 
 
 ## Setup
