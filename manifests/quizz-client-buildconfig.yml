@@ -20,7 +20,7 @@ metadata:
   name: cheese-quizz-client
   annotations:
     app.openshift.io/vcs-ref: master
-    app.openshift.io/vcs-uri: 'https://github.com/lbroudoux/cheese-quizz'
+    app.openshift.io/vcs-uri: 'https://github.com/nmasse-itix/cheese-quizz'
   labels:
     app: cheese-quizz-client
     app.kubernetes.io/component: cheese-quizz-client
@@ -48,7 +48,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: Validate=false
     app.openshift.io/vcs-ref: master
-    app.openshift.io/vcs-uri: 'https://github.com/lbroudoux/cheese-quizz'
+    app.openshift.io/vcs-uri: 'https://github.com/nmasse-itix/cheese-quizz'
 spec:
   nodeSelector: null
   output:
@@ -72,7 +72,7 @@ spec:
   source:
     type: Git
     git:
-      uri: 'https://github.com/lbroudoux/cheese-quizz'
+      uri: 'https://github.com/nmasse-itix/cheese-quizz'
       ref: master
     contextDir: /quizz-client
   triggers:

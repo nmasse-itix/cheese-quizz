@@ -4,7 +4,7 @@ metadata:
 projects:
   - name: cheese-quizz
     source:
-      location: 'https://github.com/lbroudoux/cheese-quizz.git'
+      location: 'https://github.com/nmasse-itix/cheese-quizz.git'
       type: git
       branch: master
 components:
