@@ -16,6 +16,8 @@ components:
     endpoints:
       - name: localhost-8080
         port: 8080
+      - name: localhost-8081
+        port: 8081
       - name: localhost-9000
         port: 9000
   - id: redhat/workshop-tools/3.0
